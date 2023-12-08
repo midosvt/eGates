@@ -13,7 +13,7 @@ eGates include is designed to make the process of creating automatic gates EXTRE
 You will need to get y_iterate and y_hooks (YSI) to use this include. Put all the .inc files (and the YSI folder) in your /pawno/include folder.
 
 Add '#include <eGates>' under '#include <open.mp>' in your script.
-**NOTE: It's eGates, not eGates.**
+    **NOTE: It's eGates, not eGates.**
 
 ```pawn
 #include <open.mp>
@@ -114,7 +114,7 @@ OpenGate(gateid)
 `gateid` is the ID of the gate. Returned by CreateAutomaticGate().
 
 ### Returns
-`-1` - Gate doesn't exist
+`-1` - Gate doesn't exist.
 `0` - Gate already open(ing)
 `1` - Gate opening - success!
 
