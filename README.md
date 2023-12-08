@@ -52,7 +52,7 @@ This function has many parameters. Typing `CreateAutomaticGate` in pawno will po
 The ID of the gate that was created (NOTE: NOT the object ID!)
 `-1` if the gate wasn't created (limit reached)
 
-## Usage
+### Usage
 
 Example: Create a barrier at the LSPD that will have a condition (cops only):
 
@@ -95,7 +95,7 @@ OpenGate(gateid);
 `0` - Gate already open(ing)
 `1` - Gate opening - success!
 
-## Usage
+### Usage
 
 Example of opening a gate using `OpenGate`
 
@@ -125,7 +125,7 @@ CloseGate(gateid);
 `0` - Gate already close(ing)
 `1` - Gate closing - success!
 
-## Usage
+### Usage
 
 Example of closing a gate using `CloseGate`
 
@@ -157,7 +157,7 @@ GateStatus(gateid);
 `GATE_STATUS_OPEN 2`     - Gate is fully open
 `GATE_STATUS_CLOSING 3`  - Gate is closing, not yet fully closed
 
-## Usage
+### Usage
 
 Example of using `GateStatus`
 
@@ -201,7 +201,7 @@ RemoveGate(gateid)
 `0` - Gate not found or doesn't exist
 `1` - Gate was destroyed successfully
 
-## Usage
+### Usage
 
 Example of destroying a gate using `DestroyGate(gateid)`
 
