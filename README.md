@@ -10,10 +10,11 @@ eGates include is designed to make the process of creating automatic gates EXTRE
 
 ## Installation
 
-You will need to get y_iterate and y_hooks (YSI) to use this include. Put all the .inc files (and the YSI folder) in your /pawno/include folder.
+You will need to get y_iterate and y_hooks (YSI) to use this include. Put all the .inc files (and the YSI folder) in your `/pawno/include` folder.
 
 Add '#include <eGates>' under '#include <open.mp>' in your script.
-    **NOTE: It's eGates, not eGates.**
+
+**NOTE: It's eGates, not eGates.**
 
 ```pawn
 #include <open.mp>
@@ -28,7 +29,6 @@ If you're going to create more than 100 gates, re-define MAX_GATES in eGates.inc
 ```
 
 You can also set how often the gates are all checked. This is once a second by default.
-
 
 
 ## Functions
