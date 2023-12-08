@@ -3,5 +3,7 @@ eGates include is designed to make the process of creating automatic gates EXTRE
 
 ### Preview
 <div align="left">
-  <a href="https://www.youtube.com/watch?v=CH-zX4qEgzg"></a>
+      <a href="https://www.youtube.com/watch?v=CH-zX4qEgzg">
+         <img src="https://img.youtube.com/vi/CH-zX4qEgzg/0.jpg" style="width:100%;">
+      </a>
 </div>
