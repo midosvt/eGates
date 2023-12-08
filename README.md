@@ -1,5 +1,5 @@
 # eGates
-eGates include is designed to make the process of creating automatic gates EXTREMELY easy with just a single line of code. It's an edit of the original mGates include created by the developer of the Mike's Cops and Robbers (Mike/MP2) SA-MP server back in 2012, and now we want to share it with others who may find it useful. It also has an option for you to deny access for certain players based on things such as their team. For example, if you wish to create a gate that exclusively opens for the Police personnel, it's incredibly simple to achieve with this feature-rich include. Enjoy the ease and flexibility of implementing automatic gates in your server with the Automatic Gate Creator!
+eGates include is designed to make the process of creating automatic gates EXTREMELY easy with just a single line of code. It's an edit of the original eGates include created by the developer of the Mike's Cops and Robbers (Mike/MP2) SA-MP server back in 2012, and now we want to share it with others who may find it useful. It also has an option for you to deny access for certain players based on things such as their team. For example, if you wish to create a gate that exclusively opens for the Police personnel, it's incredibly simple to achieve with this feature-rich include. Enjoy the ease and flexibility of implementing automatic gates in your server with the Automatic Gate Creator!
 
 ### Preview
 <div align="left">
@@ -7,6 +7,29 @@ eGates include is designed to make the process of creating automatic gates EXTRE
          <img src="https://img.youtube.com/vi/CH-zX4qEgzg/0.jpg" style="width:50%;">
       </a>
 </div>
+
+## Installation
+
+You will need to get y_iterate and y_hooks (YSI) to use this include. Put all the .inc files (and the YSI folder) in your /pawno/include folder.
+
+Add '#include <eGates>' under '#include <open.mp>' in your script.
+**NOTE: It's eGates, not eGates.**
+
+```pawn
+#include <open.mp>
+#include <eGates> // eGates NOT egates
+```
+
+If you're going to create more than 100 gates, re-define MAX_GATES in eGates.inc
+
+```pawn
+// Number of gates that can be created by the script.
+#define MAX_GATES 100
+```
+
+You can also set how often the gates are all checked. This is once a second by default.
+
+
 
 ## Functions
 
