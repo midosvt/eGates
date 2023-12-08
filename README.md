@@ -103,7 +103,7 @@ public OnGameModeInit()
 Setting it out in this way allows for you to easily see, understand and edit a gate quickly, as opposed to having all the parameters on one line.
 You should also comment them (//) so you know which is which - as there are quite a few parameters to pass.
  
- 
+
 To force a gate to open.
 
 ```pawn
@@ -147,7 +147,9 @@ CloseGate(gateid)
 
 ### Returns
 `-1` - Gate doesn't exist
+
 `0` - Gate already close(ing)
+
 `1` - Gate closing - success!
 
 ### Usage
@@ -165,7 +167,7 @@ public OnPlayerCommandText(playerid, cmdtext[])
     return 0;
 }
 ```
-
+ 
 To check the state of a gate (open/closed/opening/closing).
 
 ```pawn
@@ -198,7 +200,7 @@ public OnPlayerCommandText(playerid, cmdtext[])
     return 0;
 }
 ```
-
+ 
 To destroy a gate.
 
 ```pawn
@@ -223,7 +225,9 @@ RemoveGate(gateid)
 ### Returns
 
 `-1` - Invalid gate ID
+
 `0` - Gate not found or doesn't exist
+
 `1` - Gate was destroyed successfully
 
 ### Usage
@@ -262,8 +266,11 @@ It is called 4 times per gate: when the gate starts to open, when it's fully ope
 `gateid` is the ID of the gate that triggered this callback (returned by CreateAutomaticGate).
 
 `GATE_STATUS_CLOSED 0` - Gate is fully closed
+
 `GATE_STATUS_OPENING 1` - Gate is opening, not yet fully open
+
 `GATE_STATUS_OPEN 2` - Gate is fully open
+
 `GATE_STATUS_CLOSING 3` - Gate is closing, not yet fully closed
 
 `gatex`, `gatey`, and `gatez` are the coordinates of the gate currently (whether opening or closing) - can be used, for example, to play a sound for players near-by
@@ -278,7 +285,7 @@ Returning true/false in this callback will deny the player access to the gate.
 Is it important to note, however, if one player triggers the gate open, it opens for everyone, even those without access. This is unavoidable unless the gate objects are per-player, which would not look or work well.
 See the second post below for detailed explanation of condition system.
 
-
+ 
 ```pawn
 public OnPlayerTriggerGate(playerid, gateid)
 ```
