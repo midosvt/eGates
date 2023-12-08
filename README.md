@@ -285,8 +285,7 @@ Returning true/false in this callback will deny the player access to the gate.
 Is it important to note, however, if one player triggers the gate open, it opens for everyone, even those without access. This is unavoidable unless the gate objects are per-player, which would not look or work well.
 See the second post below for detailed explanation of condition system.
 
- 
- 
+
 ```pawn
 public OnPlayerTriggerGate(playerid, gateid)
 ```
