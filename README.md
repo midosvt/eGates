@@ -12,7 +12,7 @@ eGates include is designed to make the process of creating automatic gates EXTRE
 
 You will need to get y_iterate and y_hooks (YSI) to use this include. Put all the .inc files (and the YSI folder) in your `/pawno/include` folder.
 
-Add '#include <eGates>' under '#include <open.mp>' in your script.
+Add `#include <eGates>` under `#include <open.mp>` in your script.
 
 **NOTE: It's eGates, not egates.**
 
