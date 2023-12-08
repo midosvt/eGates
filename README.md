@@ -81,11 +81,10 @@ Setting it out in this way allows for you to easily see, understand and edit a g
 You should also comment them (//) so you know which is which - as there are quite a few parameters to pass.
 
 
-
 To force a gate to open.
 
 ```pawn
-OpenGate(gateid);
+OpenGate(gateid)
 ```
 
 ### Parameters
@@ -115,7 +114,7 @@ public OnPlayerCommandText(playerid, cmdtext[])
 To force a gate to close.
 
 ```pawn
-CloseGate(gateid);
+CloseGate(gateid)
 ```
 
 ### Parameters
@@ -145,7 +144,7 @@ public OnPlayerCommandText(playerid, cmdtext[])
 To check the state of a gate (open/closed/opening/closing).
 
 ```pawn
-GateStatus(gateid);
+GateStatus(gateid)
 ```
 
 ### Parameters
