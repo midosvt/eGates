@@ -286,6 +286,7 @@ Is it important to note, however, if one player triggers the gate open, it opens
 See the second post below for detailed explanation of condition system.
 
  
+ 
 ```pawn
 public OnPlayerTriggerGate(playerid, gateid)
 ```
