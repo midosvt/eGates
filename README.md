@@ -14,7 +14,7 @@ You will need to get y_iterate and y_hooks (YSI) to use this include. Put all th
 
 Add '#include <eGates>' under '#include <open.mp>' in your script.
 
-**NOTE: It's eGates, not eGates.**
+**NOTE: It's eGates, not egates.**
 
 ```pawn
 #include <open.mp>
@@ -102,8 +102,8 @@ public OnGameModeInit()
 
 Setting it out in this way allows for you to easily see, understand and edit a gate quickly, as opposed to having all the parameters on one line.
 You should also comment them (//) so you know which is which - as there are quite a few parameters to pass.
-
-
+ 
+ 
 To force a gate to open.
 
 ```pawn
