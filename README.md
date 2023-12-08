@@ -115,7 +115,9 @@ OpenGate(gateid)
 
 ### Returns
 `-1` - Gate doesn't exist.
-`0` - Gate already open(ing)
+
+`0` - Gate already open(ing).
+
 `1` - Gate opening - success!
 
 ### Usage
